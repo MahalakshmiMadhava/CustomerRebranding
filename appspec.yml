@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /customerRebrandingV3
-    destination: /usr/share/tomcat7/webapps
+    destination: /usr/share/tomcat/webapps
 hooks:
   BeforeInstall:
     - location: setup.sh
