@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /customerRebrandingV3/
+  - source: /customerRebranding.war
     destination: /usr/share/tomcat/webapps
 hooks:
   BeforeInstall:
