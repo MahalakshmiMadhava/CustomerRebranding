@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /customerRebranding.war
+  - source: /target/CustomerOnBoard-0.0.1.war	
     destination: /usr/share/tomcat/webapps
 hooks:
   BeforeInstall:
