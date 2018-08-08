@@ -27,7 +27,9 @@ phases:
       # - command
 artifacts:
   files:
-     - '**/*'
+      - target/CustomerRebranding.war
+      discard-paths: yes
+     #- '**/*'
     # - location
   #discard-paths: yes
   #base-directory: location
