@@ -27,7 +27,7 @@ phases:
       # - command
 artifacts:
   files:
-     - target/CustomerOnBoard-0.0.1.war
+     - '**/*'
     # - location
   #discard-paths: yes
   #base-directory: location
