@@ -25,10 +25,10 @@ phases:
     #commands:
       # - command
       # - command
-artifacts:
-  files:
+ artifacts:
+   files:
       - target/CustomerRebranding.war
-      discard-paths: yes
+   discard-paths: yes
      #- '**/*'
     # - location
   #discard-paths: yes
