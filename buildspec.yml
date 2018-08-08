@@ -19,7 +19,7 @@ phases:
       # - command
   build:
     commands:
-       - mvn install
+       - mvn package
       # - command
   #post_build:
     #commands:
@@ -27,7 +27,7 @@ phases:
       # - command
 artifacts:
    files:
-      - target/CustomerRebranding.war
+      - '*/*'
    discard-paths: yes
      #- '**/*'
     # - location
