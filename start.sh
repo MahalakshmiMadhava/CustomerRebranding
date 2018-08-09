@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo service tomcat start
-sudo chkconfig tomcat on
+sudo service tomcat7 start
+sudo chkconfig tomcat7 on
