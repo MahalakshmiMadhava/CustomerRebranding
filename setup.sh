@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo yum install tomcat tomcat-webapps -y
+sudo yum install tomcat7 tomcat7-webapps -y
 
